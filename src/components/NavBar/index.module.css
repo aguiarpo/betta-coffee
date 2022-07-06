@@ -1,0 +1,25 @@
+svg {
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}
+
+.uk-navbar-nav > li a{
+    font-family: "Charles Elegant", serif;
+    font-weight: bold;
+    color: white!important;
+    text-transform:capitalize!important;
+    font-size: 20px;
+}
+
+.uk-navbar-nav > li:nth-child(1){
+    margin-left: 50px;
+}
+
+.uk-navbar-nav > li:nth-child(2){
+    margin-left: 60px;
+}
+
+.active-nav-bar{
+    border-bottom: solid 5px white;
+}

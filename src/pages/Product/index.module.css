@@ -1,0 +1,4 @@
+.divProductFlex{
+    display: flex;
+    flex-direction: row;
+}

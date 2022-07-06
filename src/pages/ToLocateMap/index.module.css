@@ -1,0 +1,4 @@
+.divMapFlex{
+    display: flex;
+    flex-direction: column;
+}

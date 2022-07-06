@@ -1,0 +1,100 @@
+.listItem{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    flex: 1;
+    margin-bottom: 50px;
+    overflow-y: auto;
+    min-height: 300px!important;
+}
+
+
+.listItem  .divDrink{
+    min-height: 100px!important;
+    height: 100px;
+    width: 300px;
+    min-width: 50px;
+    margin: 30px auto 0 auto;
+    background-color: #363F3E!important;
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.listItem  .divDrink:hover .divImg{
+    border-radius: 30px;
+}
+
+.listItem .divDrink:hover .imgCategory{
+    object-position: 0 0;
+    transform: scale(1);
+}
+
+.listItem  .divDrink > span{
+    font-size: 20px;
+    margin: auto;
+    color: white;
+    height: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.divFinal{
+    background-color: white!important;
+    height: 200px;
+}
+
+.imgCategory{
+    object-fit: cover!important;
+    object-position: -1px 13px;
+    transform: scale(1.5);
+}
+
+.divImg{
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.listItem  .divDrink > span{
+    color: white;
+    width: 100%;
+    flex: 1;
+}
+
+.drinks{
+    height: auto!important;
+    width: auto!important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.drinks span{
+    text-decoration: none!important;
+    padding: 0 20px!important;
+    font-size: 30px;
+    color: black;
+}
+
+.drinks div{
+    width: 300px;
+    height: 3px;
+    margin: 15px auto 0 auto;
+    background-color: black;
+    opacity: .7;
+}
+
+@media screen and (max-width: 700px) {
+    .listItem{
+        overflow-y: auto;
+    }
+
+    .divFinal{
+        background-color: white!important;
+        height: 100px;
+    }
+}

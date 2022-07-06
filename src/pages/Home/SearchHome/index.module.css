@@ -1,0 +1,106 @@
+.div-image-background {
+    border-top: solid 8px white;
+    border-right: solid 8px white;
+    display: inline-flex;
+    width: 60%;
+}
+
+
+.imgSearch{
+    object-fit: cover;
+    flex: 1;
+    width: 60%;
+    min-width: 300px;
+    height: inherit;
+    position: fixed;
+    z-index: 0;
+    object-position: 60% 75%;
+    filter: brightness(50%);
+}
+
+.div-image-background > div{
+    margin: auto;
+    height: 250px;
+    width: 330px;
+    z-index: 1;
+}
+
+form{
+    width: 300px!important;
+}
+
+form > span{
+    color: white;
+    font-size: 40px;
+}
+
+form > div{
+    display: flex;
+    height: 40px;
+    background-color: rgba(255,255,255, .36);
+    border-radius: 40px;
+    margin-top: 15px;
+    width: 300px;
+}
+
+form > div > span{
+    color: white!important;
+    width: 45px!important;
+    height: 45px!important;
+    border-radius: 50%!important;
+    background-color: #363F3E!important;
+    display: flex;
+    position: absolute;
+    margin-left: 253px;
+    margin-top: -3.5px;
+    cursor: pointer;
+    border: solid 2px white;
+}
+
+form > div > span > svg{
+    margin: auto;
+    font-size: 18px
+}
+
+@media screen and (max-width: 700px) {
+    .imgSearch{
+        display: none;
+    }
+
+    form > span{
+        color: white;
+        font-size: 30px;
+    }
+
+    form > div{
+        display: flex;
+        height: 40px;
+        background-color: rgba(255,255,255, 1);
+        border: solid 1px #363F3E;
+        border-radius: 40px;
+        margin-top: 15px;
+        width: 300px;
+    }
+
+
+    form  input{
+        color: black!important;
+    }
+
+    .div-image-background {
+        display: flex;
+        margin: auto;
+        height: auto;
+        padding-top: 20px;
+        border: none;
+        background-color: #363F3E;
+        width: 100%;
+    }
+
+    .div-image-background > div{
+        margin: auto;
+        height:auto;
+        width: auto;
+        z-index: 1;
+    }
+}
